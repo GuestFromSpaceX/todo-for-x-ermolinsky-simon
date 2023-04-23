@@ -28,6 +28,14 @@ body {
   margin-bottom: 12px;
 }
 
+.todo__green {
+  background: forestgreen;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
 .todo__day {
   background: #FBFAFF;
   border-radius: 10px 0 0 10px;
@@ -45,7 +53,7 @@ body {
 }
 
 .todo__delete {
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: 10px;
   background: none;
   border: none;
@@ -56,6 +64,58 @@ body {
 
 .todo__delete:hover {
   background: #EFF2FF;
+}
+
+.todo__redact {
+  margin-left: auto;
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: auto;
+  padding: 2px;
+  float: right;
+}
+
+.todo__redact:hover {
+  background: #EFF2FF;
+}
+
+.img_button_redact {
+  float: right;
+}
+
+.todo__ok {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: auto;
+  padding: 2px;
+  float: right;
+}
+
+.todo__ok:hover {
+  background: #EFF2FF;
+}
+
+.img_button_yes {
+  float: right;
+}
+
+.todo__undo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: auto;
+  padding: 2px;
+  float: right;
+}
+
+.todo__undo:hover {
+  background: #EFF2FF;
+}
+
+.img_button_no {
+  float: right;
 }
 
 input {
